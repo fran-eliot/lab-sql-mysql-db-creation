@@ -40,7 +40,7 @@ CREATE TABLE invoices(
   fk_car INT NOT NULL,
   fk_customer INT NOT NULL,
   fk_salesperson INT NOT NULL,
-  PRIMARY KEY(invoice_id),
+  PRIMARY KEY(id_invoice),
   FOREIGN KEY(fk_car) REFERENCES cars(id_car),
   FOREIGN KEY(fk_customer) REFERENCES customers(id_customer),
   FOREIGN KEY(fk_salesperson) REFERENCES salespersons(id_salesperson)
