@@ -1,4 +1,4 @@
-INSERT INTO cars (id_car, vin, manufacturer, model, year_car, color) VALUES
+INSERT INTO cars (id_car, VIN, manufacturer, model, year_car, color) VALUES
 (1, '3K096I98581DHSNUP', 'Volkswagen', 'Tiguan', 2019, 'Blue'),
 (2, 'ZM8G7BEUQZ97IH46V', 'Peugeot', 'Rifter', 2019, 'Red'),
 (3, 'RKXVNNIHLVVZOUB4M', 'Ford', 'Fusion', 2018, 'White'),
